@@ -1,3 +1,3 @@
-# regex1
+# Regrex1_Py_Script
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sandalaj/regex1/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sandalaj/Regrex1_Py_Script/HEAD)
