@@ -7,7 +7,7 @@
 
 # In[3]:
 
-
+import sys
 import pandas as pd  
 import numpy as np  
 import matplotlib.pyplot as plt  
@@ -15,16 +15,15 @@ import seaborn as seabornInstance
 from sklearn.model_selection import train_test_split 
 from sklearn.linear_model import LinearRegression
 from sklearn import metrics
-get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 # ### Read in the data
 
 # In[4]:
 
-
-dataset = pd.read_csv('regrex1.csv')
-dataset
+print(sys.argv[1])
+dataset = pd.read_csv(sys.argv[1])
+print(dataset)
 
 
 # ### Plot the scatterplot
@@ -37,6 +36,7 @@ plt.title('Scatterplot - Python')
 plt.xlabel('x')  
 plt.ylabel('y')  
 plt.show()
+plt.savefig("Scatterplot_Py.png")
 
 
 # ### Divide the data into 'attributes' and 'labels':
@@ -74,4 +74,5 @@ plt.scatter(x, y,  color='gray')
 plt.plot(x, y_pred, color='red', linewidth=2)
 plt.title('Linear Model - Python')
 plt.show()
+plt.savefig("Scatterplot_LM_Py.png")
 
