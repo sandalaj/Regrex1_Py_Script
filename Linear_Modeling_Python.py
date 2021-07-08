@@ -36,7 +36,7 @@ plt.title('Scatterplot - Python')
 plt.xlabel('x')  
 plt.ylabel('y')  
 plt.show()
-plt.savefig("Scatterplot_Py.png")
+plt.savefig("py_orig.png")
 
 
 # ### Divide the data into 'attributes' and 'labels':
@@ -74,5 +74,5 @@ plt.scatter(x, y,  color='gray')
 plt.plot(x, y_pred, color='red', linewidth=2)
 plt.title('Linear Model - Python')
 plt.show()
-plt.savefig("Scatterplot_LM_Py.png")
+plt.savefig("py_lm.png")
 
